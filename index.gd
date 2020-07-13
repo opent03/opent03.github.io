@@ -1,9 +1,4 @@
-# Welcome to the $\mathcal{R}$ice $\mathcal{F}$ields :)
-
-We propose randomized least squares value iteration (RLSVI).
-
-## BS Title
-
-some bs text right here.
-
-
+# Viet Nguyen
+![profile photo]()
+I'm an undergrad at [McGill](https://www.mcgill.ca) and research assistant at [Mila](https://mila.quebec) under [Prof. Doina Precup](https://www.cs.mcgill.ca/~dprecup/), 
+where I work in deep exploration for reinforcement learning. 

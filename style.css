@@ -18,3 +18,8 @@ h1 {
 .katex {
   font-size: 1em !important;
 }
+
+.profile {
+  width:20%;
+  height:20%;
+}
