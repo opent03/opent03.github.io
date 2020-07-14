@@ -1,8 +1,88 @@
 ---
-layout: home
+layout: archive
 author_profile: true
 ---
+<body>
+    <h1 style="font-size: 100%;">
+        About me
+    </h1>
+    <p style="font-size: 80%;">
+        I'm an undergraduate at <a href="https://mcgill.ca">McGill</a> in Honors Probability & Statistics, 
+        and research assistant at <a href="https://mila.quebec/en/">Mila</a> under 
+        <a href="https://www.cs.mcgill.ca/~dprecup/">Prof. Doina Precup</a>, where I work in deep exploration for 
+        reinforcement learning. I am also a R&D intern at <a href="https://www.fpt-software.com/">FPT Canada</a>, where I deploy machine learning pipelines to solve real-world problems. My mission is to create artificial <em>self-conscious</em> existences that <em>think</em> and 
+        <em>act</em> intelligently. 
+    </p>
+    <p style="font-size:80%;">
+    My primary research interests are:
+    <ul>
+        <li style="font-size:80%;">Exploration in RL and bandits</li>
+        <li style="font-size:80%;">Abstract function machine theory</li>
+        <li style="font-size:80%;">Statistical learning theory</li>
+    </ul>
+    </p>
+    <script>
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
 
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
 
-<!--header:
-    image: "/images/lac.jpg"-->
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Publications')", id='b1'>Publications</button>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) { 
+              document.getElementById("b1").click();
+           });
+        </script>
+        <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="openCity(event, 'Misc.')">Misc.</button>
+    </div>
+    
+    <div id="Publications" class="tabcontent">
+        <h5><a href="https://github.com/opent03/works/raw/master/On%20the%20Analysis%20of%20Stochastic%20Gradient%20Descent%20in%20Neural%20Networks%20via%20Gradient%20Flows.pdf">On the Analysis of Stochastic Gradient Descent in Neural Networks via Gradient Flows</a> - Viet Nguyen, May 2020</h5>
+        <p style="font-size: 90%;">"Research in neural network theory is steadily gaining traction, as there is a growing interest in the thorough understanding of the functionalities and the mechanisms through which these models achieve strong performances in decision problems. Several methods have been proposed to quantitatively assess the optimization process of the neural network’s high dimensional non-convex objective, employing various tools such as kernel methods, global optimization, optimal transport, and functional analysis. In this work, we focus on Mei et al.’s analysis of the mean risk field of two-layer neural networks which associates stochastic gradient descent’s (SGD) training dynamics to a partial differential equation (PDE) in the space of probability measures with the topology of weak convergence. Precisely, we dissect the proof of the convergence of SGD’s dynamics to the solution of the PDE, showcase several results regarding the analysis of the latter and their implications on the training process of neural networks via SGD, and discuss related work as well as potential further explorations stemming from various fields."</p>
+        <h5><a href="https://github.com/opent03/works/raw/master/On%20the%20Concentration%20of%20Measure%20in%20Orlicz%20spaces%20of%20exponential%20type.pdf">On the Concentration of Measure in Orlicz spaces of exponential type</a> - Viet Nguyen, April 2020</h5>
+        <p style="font-size: 90%;">"The study of Orlicz spaces, first described in 1931 by Wladyslaw Orlicz and Zygmunt Wilhelm Birnbaum, became popular in the empirical processes and functional analysis literature, due to the rising interest in chaining arguments to derive probabilistic bounds for stochastic processes, and generalizations of Lp spaces as well as Sobolev space embeddings, respectively. Orlicz spaces exhibit strong concentration phenomena, inherited from their construction. In particular, they are associated to the sub-Exponential and sub-Gaussian classes of random variables. In this article, we aim to provide a brief introduction to concentration of measure in Orlicz spaces, in particular, Orlicz spaces of exponential type. We begin by the construction of these spaces, and delve into certain concentration guarantees and applications."</p>
+        <h5><a href="https://github.com/opent03/works/raw/master/A%20Continuum%20of%20Potential.pdf">Neural Networks: A Continuum of Potential</a> - Eric Hu, Johnny Huang, Viet Nguyen, December 2019</h5>
+        <p style="font-size: 90%;">"Theories on neural networks with an infinite number of hidden units were explored since the late 1990's, deepening the understanding of these computational models in two principal aspects: 1. network behavior under some limiting process on its parameters and 2. neural networks from a functional perspective. Continuous neural networks are of particular interest due to their computational feasibility from finite affine parametrizations and strong convergence properties under constraints. In this paper, we survey some of the theoretical groundings of continuous networks, notably their correspondence with Gaussian processes, computation and applications through the Neural Tangent Kernel (NTK) formulation, and apply the infinite dimensional extension to inputs and outputs all the while considering their universal approximation properties." <b>I delivered a presentation on this topic at the Seminary on Undergraduate Mathematics in Montreal (SUMM) 2020.</b></p>
+        
+    </div>
+      
+      <div id="Projects" class="tabcontent">
+        <h5><a href="https://editor.p5js.org/opent03/full/UUhU1WWZ3">RL Animation</a></h5>
+        <p style="font-size: 90%;">I am currently working with <a href="https://diegolopez.me/">Diego Lopez</a> on the animation of the value iteration algorithm on a RL grid world. 
+        </p>
+        <h5><a href="https://devpost.com/software/defective_pilot">CAE - defective_pilots</a>, Fall 2019</h5>
+        <p style="font-size: 90%;">Given time series flight simulation KPI data of several commercial pilots, we are tasked to classify whether a pilot should undergo retraining and have their mental health assessed. <b>We won the CAE sponsor challenge</b> at ImplementAI 2019 by providing the best solution which combines various feature engineering techniques and a mix of supervised and unsupervised learning. 
+        </p>
+        <h5><a href="https://neurotechx.com/milo-brain-controlled-wheelchair-1st-place-winners/">Milo, the Brain-Controlled Wheelchair</a>, Winter 2019</h5>
+        <p style="font-size: 90%;">
+            "Students from different backgrounds — including biology, computer science, hardware engineering, data collection, and machine learning — got together on their free-time to start a project to challenge themselves and improve the world around them. By gathering EEG bio-signals from the brain, they were able to process the data in order to direct the wheelchair forward, left, right, and stop. Over the course of the development, the students were able to create a wheelchair without using motor controls – just the control of the user’s mind – further improved with impressive semi-autonomous enhancements." I worked on the Machine Learning team of the project and was tasked to classify the processed EEG signals into different wheelchair movements. <b>We won first prize at the NeuroTechX "Open Challenge"</b>.
+        </p>
+        <h5>Handwriting Recognizer, Winter 2019</h5>
+        <p style="font-size: 90%;">
+            At ConUHacks IV, we leveraged deep learning models to create a handwriting recognizer, deployed as a backend to an Android app using their camera API. 
+        </p>
+      </div>
+      
+      <div id="Misc." class="tabcontent">
+        <h5>Tokyo</h5>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+</body>

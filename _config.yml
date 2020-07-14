@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Viet Nguyen"
+title                    : "~Earl Grey~"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Viet Nguyen"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Viet Nguyen"
   avatar           : "/images/pp.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Personal Website"
+  bio              : "McGill, Mila"
   location         : "Montreal, QC"
   email            :
   links:
