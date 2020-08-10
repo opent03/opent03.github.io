@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Viet Nguyen - Homepage"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : Let (X, ℳ) be a measurable space with μ, ν, two σ-finite measures. If ν << μ, then there exists a ℳ-measurable function f... 
 name                     : "Viet Nguyen"
 description              : "Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : 𝓥𝓮𝓻𝓲𝓽𝓪𝓼 𝓜𝓮𝓶𝓮𝓲 𝓜𝓪𝓷𝓮𝓽 𝓲𝓷 𝓐𝓮𝓽𝓮𝓻𝓷𝓾𝓶 # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
