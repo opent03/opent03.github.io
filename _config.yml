@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -25,7 +25,7 @@ url                      : https://opent03.github.io/ # the base hostname & prot
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : opent03/opent03.github.io/ # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /images/android-chrome-384x384.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # 𝓥𝓮𝓻𝓲𝓽𝓪𝓼 𝓜𝓮𝓶𝓮𝓲 𝓜𝓪𝓷𝓮𝓽 𝓲𝓷 𝓐𝓮𝓽𝓮𝓻𝓷𝓾𝓶 # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Viet Nguyen"
   avatar           : "/images/pp.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "McGill, Mila"
+  bio              : "Mila, McGill"
   location         : "Montreal, QC"
   email            : "baviet.nguyen@mail.mcgill.ca"
   links:
