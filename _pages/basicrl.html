@@ -1,0 +1,229 @@
+---
+title: "Basic RL course"
+permalink: /basicrl/
+layout: nothing
+---
+    <HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <TITLE>SUMS 707 Home Page</TITLE>
+    </HEAD>
+    <BODY LINK="#0000ff" VLINK="#800080">
+    <CENTER>
+    <H1>SUMS 707 Home Page <BR>
+    Basic Reinforcement Learning: Elementary Theory and Applications<BR>
+    <BR>
+    Winter 2021</H1>
+    </CENTER>
+    <P><HR></P>
+    
+    <STRONG><P>E-mail:</STRONG> <A
+    HREF="mailto:viet.nguyen@mila.quebec">viet.nguyen@mila.quebec</A>, <a href="mailto:moisescg@mila.quebec">moisescg@mila.quebec</a>,
+    <a href="mailto:shereen.elaidi@mail.mcgill.ca">shereen.elaidi@mail.mcgill.ca</a><BR> 
+    
+    <P><HR></P>
+    
+    
+    <H2>Announcements </H2> <UL> 
+    <li>Welcome to the first ever session of SUMS 707! This will be the course home page for the incoming semester. Suggested readings, assignments, course updates, and other useful 
+        information shall be provided here. Course registration is currently open and managed by our TA, please email her if you have any related questions or 
+        if you have any doubts regarding your background. 
+    </li>
+    <li>The course will start in the beginning of the Winter 2021 semester and end a week before final exams start. Please see the course syllabus an/or schedule for a reference.
+        1.5 - 2 hour lectures will be delivered every week. The exact lecture dates are TBD (we currently have it on Mondays, but may change to accomodate students' busy winter schedules). 
+    </li>
+    <li> The course will be taught <b>on Zoom</b>. Lectures <b>might be recorded</b>.</li>
+    
+    <li> This course is co-taught with <a href="https://gabrielamp.github.io">Gabriela Moisescu-Pareja</a>. </li>
+    
+    <li> <a href="/sums707w21/schedule.pdf"> Here </a> is the lecture schedule.</li>
+    
+    <li> <a href="/sums707w21/syllabus.pdf"> Here</a> is the course syllabus. </li>
+    
+    <li> The recommended textbooks for the course are <i>Reinforcement Learning: An Introduction</i> by Andrew Barto and Richard S. Sutton, 
+         <i>Reinforcement Learning: Theory and Algorithms</i> by Alekh Agarwal, Nan Jiang, Sham M. Kakade, and Wen Sun, <i>Algorithms for Reinforcement Learning</i> by Csaba Szepesvári,
+          <i>Labelled Markov Processes</i> by Prakash Panangaden, and <i>Éléments de Géométrie Algébrique</i> by Alexander Grothendieck, assisted by Jean Dieudonné.</li>
+    </UL>
+    
+    <P><HR></P>
+    <H2>Course Information</H2>
+    <UL>
+    <LI> Lecture Times: TBD - TBD </LI>
+    <LI> Lecture Place: Zoom University Hall </LI> 
+    <LI> Office Hours:  TBD by Zoom</LI>
+    <LI> Office: Zoom </LI>
+    <LI> TA and office hours: 
+    <UL>
+    <LI> <a href="https://shereenelaidi.github.io">Shereen Elaidi</a>, TBD by Zoom </LI>
+    </UL>
+    </UL>
+
+    <P><HR></P>
+    
+    
+        <H2> Recommended Background </H2> <UL> 
+            <li>These are provided in the syllabus, but we give clarifications and provide emphasis here.</li>
+            <li>
+                We expect a mildly adequate mastery of the following skill trees: (measure theoric) probstats, 
+                linear algebra (even better if you know functional analysis), calculus (not really but we'll put it here), 
+                machine learning (important, 1 course in ML + some experiences solving ML problems will be good enough for our purposes),
+                and category theory (very important). 
+            </li>
+            
+            <li>
+                Having learned the following dark spells will optimize your any% speedrun time: stochastics, martingale theory, 
+                concentration inequalities, and higher topos theory. 
+            </li>
+            <li>
+                Equipped with the following forbidden magics, you may see that the universe is more than a 10 dimensional blob of strings: 
+                Fukaya category, Hitchin fibration, symplectic Lie n-algebroids. 
+            </li>
+            <li>
+                You do not need forbidden magics. They are just cool topics of the discussions we occasionally have with Khoi (who will be 
+                very excited to discuss them further with you). 
+            </li>
+            <li>
+                But if you're self-driven enough to Google your way through the concepts you're struggling with, you'll probably be okay, 
+                although we do clarify that the course is fast-paced. 
+            </li>
+            <li>Category theory (very very important).</li>
+        </UL>
+
+    <P><HR></P>
+    
+    
+        <H2> Course Materials </H2> <UL> 
+            <li>*cricket noises*</li>
+        </UL>
+
+    <!--
+    <P><HR></P>
+    
+    <H2>Notes</H2>
+    <UL>
+      <li> <a href="Notes/basic_prob.pdf"> Basic probability notes</a> from 2nd
+      September.</li>
+        <li> <a href="Notes/pac_learning.pdf"> Notes </a> on basics of PAC-learning. </li>
+        <li> <a href="Notes/rectangles.pdf"> Notes </a> on learning
+      rectangles. For the 14th September lecture.</li>
+      <li> <a href="Notes/non-realizable.pdf"> Notes </a> on learning bounds
+      for the non-realizable case.</li> 
+      <li> <a href="Notes/agnostic_improved.pdf"> Notes </a> on learning bounds
+      for the agnostic case.</li>
+      <li> <a href="Notes/vc_dim_notes.pdf"> Notes </a> on VC dimension from
+      16th September.</li>
+      <li> <a href="Notes/vc_bound.pdf"> Notes </a> on the learning bound based
+      on VC dimension from 21st September.</li>
+      <li> <a href="Notes/rad.pdf"> Notes </a> on Rademacher complexity. </li>
+      <li> <a href="Notes/swapping.pdf"> A short note</a> explaining why swapping
+      does not change the distribution of samples.</li>
+      <li> <a href="Notes/oct14_lec_notes.pdf"> October 14th lecture notes</a> on online
+      learning. </li>
+      <li> <a href="Notes/perceptron.pdf"> October 19th lecture notes</a> on the
+      Perceptron algorithm.</li>
+    <!-- 
+    Some of these notes are James (Ben) Worrell's notes from his class at Oxford,
+    which are in turn based on Jennifer Wortman Vaughan's notes from her class
+    at UCLA.  I thank Ben for sharing these notes with me.  
+    
+      <li> <a href="Notes/agmi.pdf"> Arithmetic-geometric mean
+      inequality.</a></li>
+      <li> <a href="Notes/bcs.pdf"> Notes </a> on the Bunyakovsky-Cauchy-Schwartz inequality.</li>
+      <li> <a href="Notes/convexity.pdf"> Notes </a> on convexity. </li>
+      <li> <a href="Notes/chernoff_bounds.pdf"> Notes </a> on Chernoff
+      bounds. </li>
+      <li> <a href="Notes/chernoff_bounds_new.pdf"> Notes </a> on Chernoff
+      bounds.  New, improved. </li>
+      <li> <a href="Notes/chernoff_bounds_new_small.pdf"> Notes </a> on Chernoff
+      bounds.  New, improved and reduced size pdf. </li>
+      <li> <a href="Notes/high_dim_geometry.pdf"> Notes </a> on
+      high-dimensional geometry. </li>
+    
+      <li> <a href="Notes/no_free_lunch.pdf"> Notes </a> on the absence of a
+      universal learner. </li>
+    <li> <a
+      href="http://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-HT2018/lectures/lecture03.pdf">
+      Varun Kanade's notes on VC dimension</a> from his course at Oxford
+      University.  Thanks to Varun for making his excellent notes publicly
+      available.</li>
+      <li> <a href="Notes/lecture5-2015.pdf">  James (Ben) Worrell's
+      notes on Rademacher complexity from his course at Oxford.</a></li>
+      <li> <a href="Notes/duck_sup.pdf"> A short note</a> explaining one of the
+      steps in the proof of the Rademacher complexity bound.</li>
+      <li> <a href="Notes/swapping.pdf"> A short note</a> explaining why swapping
+      does not change the distribution of samples.</li>
+      <li> <a href="Notes/lecture6.pdf"> James Worrell's notes</a> on online
+           learning and the perceptron algorithm.  These do not cover all the
+      things that I did on online learning.</li>
+      <li> <a href="Notes/lecture7-2015.pdf"> James Worrell's notes</a> on
+      convex optimization.</li>
+      <li> <a href="Notes/lecture8-2015.pdf"> James Worrell's notes</a> on
+      SVM.</li>
+      <li> <a href="Notes/lecture9-2015.pdf"> James Worrell's notes</a> on
+      kernels.</li>
+      <li> <a href="Notes/lecture10-2015.pdf"> James Worrell's notes</a> on
+      margin theory.</li>
+      <li> <a href="Notes/log_char_bisim.pdf"> Notes on bisimulation and its logical
+      characterization.</a>  These do not include probabilistic bisimulation. </li>
+      <li> <a href="Notes/vc_dim_1-worrell.pdf"> Notes </a> on VC dimension basics.  
+           These are James Worrell's notes from his class at Oxford, which are in turn 
+           based on Jennifer Wortman Vaughan's notes.</li>
+      <li> <a href="Notes/vc_dim_2-worrell.pdf"> Notes </a> on bounds based on VC dimension. 
+           Once again, thanks to James Worrell and Jennifer Wortman
+           Vaughan.</li>
+      <li> <a href="Notes/lecture6.pdf"> James Worrell's notes</a> on online
+           learning and the perceptron algorithm. </li>
+      <li> <a href="Notes/lecture7.pdf"> James Worrell's notes</a> on the Winnow
+      algorithm.</li>
+      <li> <a href="Notes/lecture8.pdf"> James Worrell's notes</a> on expert
+      advice and randomized weighted majority.</li>
+      <li> <a href="Notes/lecture7-2015.pdf"> James Worrell's notes</a> on
+      basics of Convex optimization.</li>
+      <li> <a href="Notes/lecture8-2015.pdf"> James Worrell's notes</a> on
+      SVM.</li>
+      
+    </UL>
+    
+    <P><HR></P>
+    <H2>Video recording of lectures</H2>
+    These are also available in myCourses.
+    <UL>
+    <li> <a
+    href="https://www.dropbox.com/s/n93qi32zmuadz2n/oct_14_lecture.mp4?dl=0"> Video
+      recording of the 14th October lecture.</a></li>
+    <li> <a
+    href="https://www.dropbox.com/s/ninng6mylwek51v/zoom_0.mp4?dl=0"> Video
+    recording of the 19th October lecture.</a></li>
+    </UL>
+    
+    <P><HR></P>
+    <H2>Assignments</H2>
+    <UL>
+      <li> <a href="Assignments/Hw1/hw1.pdf"> Assignment 1.</a> Due on 18th
+      September via myCourses.  LaTeX is required.</li>
+      <li> <a href="Assignments/Hw1/sol1.pdf"> Assignment 1 solutions.</a>
+      <li> <a href="Assignments/Hw2/hw2.pdf"> Assignment 2.</a> Due on 2nd
+      October via myCourses.</li>
+      <li> <a href="Assignments/Hw2/sol2.pdf"> Assignment 2 solutions.</a>
+      <li> <a href="Assignments/Hw4/hw4.pdf"> Assignment 4.</a> Due on 4th
+      November at 11pm.</li>
+      -->
+    <!--
+      <li> <a href="Assignments/Hw3/sol3.pdf"> Assignment 3 solutions.</a>  
+      <li> <a href="Assignments/Hw4/sol4.pdf"> Assignment 4 solutions.</a>
+     --> 
+    </UL>
+    
+    
+      
+    <P><HR></P>
+    <H2>Academic Integrity</H2>
+    <P>Please do not cheat.</P>
+    <P>Every student has the right to submit written
+      work that is to be graded, in English or in French.</P>
+    
+    <P>Chaque étudiant a le droit de soumettre en français ou en
+    anglais tout travail écrit.</P> 
+    
+    <! -- Last modification date: 26th October 2020 --></P></BODY> 
+    </P>
+    
