@@ -19,6 +19,7 @@ author_profile: true
         of consciousness and intelligence. My <!--<a href="/purpose/" target="_blank">mission</a>-->mission is to create artificial <em>self-conscious</em> beings that <em>think</em> and 
         <em>act</em> intelligently.
         </p>
+    <!--
     <p style="font-size:80%;">
     My primary research interests are:
     <ul>
@@ -35,6 +36,7 @@ author_profile: true
         <li style="font-size:80%;">Sheaf cohomology</li>
     </ul>
     </p>
+    -->
     <p style="font-size: 70%;">My CV can be found <a href="/resources/sus_cv.pdf" target="_blank">here</a>.</p>
     
     <h3>News</h3>
@@ -46,8 +48,8 @@ author_profile: true
     provably efficient exploration in RL with Prof. Doina Precup. 
     </p>
     <p style="font-size: 80%;"> 
-    I am co-instructing <a href="/basicrl/" target="_blank">basic reinforcement learning</a> starting in Winter 2021 with <a href="https://gabrielamp.github.io">Gabriela</a>. 
-    We will (any%) speedrun elementary concepts and ideas in RL. About halfway through, will snorkel deeper into a selected 
+    I co-instructed <a href="/basicrl/" target="_blank">basic reinforcement learning</a> starting in Winter 2021 with <a href="https://gabrielamp.github.io">Gabriela</a>. 
+    We speedran elementary concepts and ideas in RL. About halfway through, we snorkeled deeper into a selected 
     number of topics we think are important (and exciting!), including abstraction, exploration, selected topics in applied PDEs, Markov chains, and trees. Course registration is closed. 
     </p>
     <script>
@@ -92,6 +94,12 @@ author_profile: true
     </div>
     
     <div id="Publications" class="tabcontent">
+        https://arxiv.org/abs/2106.07841
+        <h5><a href="https://arxiv.org/abs/2106.07841">Randomized Exploration for Reinforcement Learning with General Value Function Approximation</a> - Haque Ishfaq, Qiwen Cui, Viet Nguyen, Alex Ayoub, Zhuoran Yang, Zhaoran Wang, Doina Precup, Lin F. Yang, June 2021</h5>
+        <p style="font-size: 90%;">"We propose a model-free reinforcement learning algorithm inspired by the popular randomized least squares value iteration (RLSVI) algorithm as well as the optimism principle. Unlike existing upper-confidence-bound (UCB) based approaches, which are often computationally intractable, our algorithm drives exploration by simply perturbing the training data with judiciously chosen i.i.d. scalar noises. To attain optimistic value function estimation without resorting to a UCB-style bonus, we introduce an optimistic reward sampling procedure. When the value functions can be represented by a function class $\mathcal{F}$, our algorithm achieves a worst-case regret bound of $\tilde{O}(\mathrm{poly}(d_EH)\sqrt{T})$ where $T$ is the time elapsed, $H$ is the planning horizon and $d_E$ is the \emph{eluder dimension} of $\mathcal{F}$. In the linear setting, our algorithm reduces to LSVI-PHE, a variant of RLSVI, that enjoys an $\tilde{\mathcal{O}}(\sqrt{d^3H^3T})$ regret. We complement the theory with an empirical evaluation across known difficult exploration tasks."</p>
+    </div>
+      
+    <div id="Projects" class="tabcontent">
         <h5><a href="resources/value_iter.pdf">Value Iteration-based Provably Efficient Exploration</a> - Viet Nguyen, Eric Hu, January 2021</h5>
         <p style="font-size: 90%;">"Reinforcement learning has long piqued the interest of many due to its vast applicability and its highly promising potential. With foundational ideas stemming from the traditional theory of artificial intelligence, it’s been undergoing continuous development since the later decades of the 20th century. When the deep learning revolution occurred in the early 2010s with cornerstone works by Krizhevsky et. al., Srivastava et. al., and later on Vaswani et. al., many employed deep neural networks in reinforcement learning to achieve superhuman level game-playing, as well as a multitude of applications in other fields. Recently, by imposing various assumptions, Wang et. al. proposed a provably efficient algorithm in the general function approximation (GFA) setting, a setting that covers a restriction of the space of affine compositions of neural networks. In this work, as we take a deeper look into several important components of Wang et. al.’s work, we will later argue that although they spearhead recent efforts towards a theory for deep reinforcement learning, the strong assumptions that make up the heart of their proofs hint at the need for a different/alternate fundamental understanding of the reinforcement learning problem."</p>
         <h5><a href="resources/proveff.pdf">Provable Efficiency: Finding Regret Bounds in Reinforcement Learning</a> - Eric Hu, Viet Nguyen, December 2020</h5>
@@ -105,9 +113,6 @@ author_profile: true
         <p style="font-size: 90%;">"Theories on neural networks with an infinite number of hidden units were explored since the late 1990's, deepening the understanding of these computational models in two principal aspects: 1. network behavior under some limiting process on its parameters and 2. neural networks from a functional perspective. Continuous neural networks are of particular interest due to their computational feasibility from finite affine parametrizations and strong convergence properties under constraints. In this paper, we survey some of the theoretical groundings of continuous networks, notably their correspondence with Gaussian processes, computation and applications through the Neural Tangent Kernel (NTK) formulation, and apply the infinite dimensional extension to inputs and outputs all the while considering their universal approximation properties." <b>I delivered a presentation on this topic at the Seminary on Undergraduate Mathematics in Montreal (SUMM) 2020.</b></p>
         <h5><a href="resources/fader_ab.pdf">Fader Networks: A Heuristic Approach</a> - Marcos Cardenas Zelaya, Marie Leech, Viet Nguyen, April 2019</h5>
         <p style="font-size: 90%;">"In recent years, approaches to approximating complex data distributions have been centered around the generative adversarial networks (GANs) paradigm, eliminating the need for Markov chains in generative stochastic networks or approximate inference in Boltzmann machines. Applying GANs to image and video editing have been done in a supervised setting where external information about the data allows the re-generation of real images with deterministic complex modifications, using Invertible conditional GANs (IcGANs). Fader Networks extend on this idea by learning a post-encoding latent space invariant to labeled features on the image, and re-generating the original image by providing the decoder with alternate attributes of choice. In this paper, we explore the impacts of modifications on the encoding and decoding convolutional blocks, analyzing the effects of droput in the discriminator, implementations of different loss functions on the generated images' quality using appropriate metrics and extend the model by including Skip Connects. We finish by providing an empirical assessment on how Fader networks develop a pseudo-understanding of higher-level image features."</b></p>
-    </div>
-      
-    <div id="Projects" class="tabcontent">
     <h5><a href="https://opent03.github.io/value_iteration_animation">RL Animation</a></h5>
     <p style="font-size: 90%;">I am currently working with <a href="https://diegolopez.me/">Diego Lopez</a> on the animation of the value iteration algorithm on a RL grid world. Work in progress is here: <a href="https://opent03.github.io/value_iteration_animation">Value Iteration Animation</a>.
     </p>
